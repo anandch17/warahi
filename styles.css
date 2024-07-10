@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.product, .cart-items {
+    border: 1px solid #ddd;
+    padding: 1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: auto;
+}
+
+form label, form input, form button {
+    margin: 0.5rem 0;
+}
+
+/* CSS3 introduced several new features and enhancements that have significantly improved the styling and layout capabilities of web pages. Here are some of the notable CSS3 features:
+
+1. Selectors
+CSS3 introduced many new selectors that provide more flexibility in selecting elements.
+
+Attribute Selectors: [attribute], [attribute=value]
+Pseudo-classes: :nth-child(), :nth-of-type(), :last-child, :first-of-type, :not()
+2. Box Model Enhancements
+box-sizing: Allows you to control the box model to include or exclude padding and borders.
+3. Backgrounds and Borders
+Multiple Backgrounds: Allows multiple background images to be layered.
+Border Images: Use images to create borders.
+Border Radius: Creates rounded corners.
+. Color and Opacity
+RGBA and HSLA Colors: Define colors with opacity.
+Opacity: Set the transparency of elements.
+. Text Effects
+Text Shadows: Add shadows to text.
+Web Fonts (@font-face): Use custom fonts on web pages. */
